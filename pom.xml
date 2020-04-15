@@ -69,6 +69,10 @@
       <groupId>io.quarkus</groupId>
       <artifactId>quarkus-jdbc-mariadb</artifactId>
     </dependency>
+    <dependency>
+      <groupId>io.quarkus</groupId>
+      <artifactId>quarkus-kubernetes</artifactId>
+    </dependency>
   </dependencies>
   <build>
     <testSourceDirectory>src/test/kotlin</testSourceDirectory>
