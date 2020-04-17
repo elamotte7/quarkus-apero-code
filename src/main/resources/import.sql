@@ -1,5 +1,5 @@
-INSERT INTO FRUIT_TABLE (ID, FRUIT_NAME, FRUIT_COLOR) VALUES (NEXTVAL(hibernate_sequence), 'apple', 'red');
-INSERT INTO FRUIT_TABLE (ID, FRUIT_NAME, FRUIT_COLOR) VALUES (NEXTVAL(hibernate_sequence), 'pineapple', 'greenish-yellow');
-INSERT INTO FRUIT_TABLE (ID, FRUIT_NAME, FRUIT_COLOR) VALUES (NEXTVAL(hibernate_sequence), 'banana', 'yellow');
-INSERT INTO FRUIT_TABLE (ID, FRUIT_NAME, FRUIT_COLOR) VALUES (NEXTVAL(hibernate_sequence), 'strawberry','red');
-INSERT INTO FRUIT_TABLE (ID, FRUIT_NAME, FRUIT_COLOR) VALUES (NEXTVAL(hibernate_sequence), 'pear', 'yellowish color');
+INSERT INTO BEER_TABLE (ID, BEER_NAME, BEER_COLOR, TASTED) VALUES (NEXTVAL(hibernate_sequence), 'Chouffe', 'Yellow', false);
+INSERT INTO BEER_TABLE (ID, BEER_NAME, BEER_COLOR, TASTED) VALUES (NEXTVAL(hibernate_sequence), 'Chimay', 'Amber', false);
+INSERT INTO BEER_TABLE (ID, BEER_NAME, BEER_COLOR, TASTED) VALUES (NEXTVAL(hibernate_sequence), 'Kwack', 'Amber', false);
+INSERT INTO BEER_TABLE (ID, BEER_NAME, BEER_COLOR, TASTED) VALUES (NEXTVAL(hibernate_sequence), 'Ch''ti Triple','Yellow', false);
+INSERT INTO BEER_TABLE (ID, BEER_NAME, BEER_COLOR, TASTED) VALUES (NEXTVAL(hibernate_sequence), 'Goudale', 'Amber', false);
