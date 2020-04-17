@@ -1,5 +1,5 @@
-INSERT INTO FRUIT_TABLE (ID, FRUIT_NAME, FRUIT_COLOR) VALUES (1, 'apple', 'red');
-INSERT INTO FRUIT_TABLE (ID, FRUIT_NAME, FRUIT_COLOR) VALUES (2, 'pineapple', 'greenish-yellow');
-INSERT INTO FRUIT_TABLE (ID, FRUIT_NAME, FRUIT_COLOR) VALUES (3, 'banana', 'yellow');
-INSERT INTO FRUIT_TABLE (ID, FRUIT_NAME, FRUIT_COLOR) VALUES (4, 'strawberry','red');
-INSERT INTO FRUIT_TABLE (ID, FRUIT_NAME, FRUIT_COLOR) VALUES (5, 'pear', 'yellowish color');
+INSERT INTO FRUIT_TABLE (ID, FRUIT_NAME, FRUIT_COLOR) VALUES (NEXTVAL(hibernate_sequence), 'apple', 'red');
+INSERT INTO FRUIT_TABLE (ID, FRUIT_NAME, FRUIT_COLOR) VALUES (NEXTVAL(hibernate_sequence), 'pineapple', 'greenish-yellow');
+INSERT INTO FRUIT_TABLE (ID, FRUIT_NAME, FRUIT_COLOR) VALUES (NEXTVAL(hibernate_sequence), 'banana', 'yellow');
+INSERT INTO FRUIT_TABLE (ID, FRUIT_NAME, FRUIT_COLOR) VALUES (NEXTVAL(hibernate_sequence), 'strawberry','red');
+INSERT INTO FRUIT_TABLE (ID, FRUIT_NAME, FRUIT_COLOR) VALUES (NEXTVAL(hibernate_sequence), 'pear', 'yellowish color');
