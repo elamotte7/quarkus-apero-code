@@ -2,7 +2,6 @@ package org.acme.rest.json
 
 import com.fasterxml.jackson.annotation.JsonProperty
 import org.acme.hibernate.panache.model.Beer
-import javax.transaction.Status
 import javax.transaction.Transactional
 import javax.ws.rs.*
 import javax.ws.rs.core.GenericEntity
@@ -58,7 +57,7 @@ class BeerResource {
     @DELETE
     @Transactional
     @Path("/{id}")
-    fun delete(@PathParam("id") id: Int) : Response{
+    fun delete(@PathParam("id") id: Int): Response {
         val entity = Beer.findById<Beer>(id)
                 ?: throw WebApplicationException("Beer with id of $id does not exist.", 404)
         entity.delete()
@@ -68,7 +67,7 @@ class BeerResource {
 
     @DELETE
     @Transactional
-    fun deleteCompleted() : Response{
+    fun deleteCompleted(): Response {
         Beer.delete("tasted", true)
         return Response.status(Response.Status.NO_CONTENT).build();
 

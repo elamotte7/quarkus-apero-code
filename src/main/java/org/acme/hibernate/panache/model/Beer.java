@@ -1,7 +1,5 @@
 package org.acme.hibernate.panache.model;
 
-import com.fasterxml.jackson.annotation.JsonIgnore;
-import io.quarkus.hibernate.orm.panache.PanacheEntity;
 import io.quarkus.hibernate.orm.panache.PanacheEntityBase;
 
 import javax.persistence.*;
@@ -14,7 +12,8 @@ public class Beer extends PanacheEntityBase {
     @SequenceGenerator(
             name = "hibernateSequence",
             sequenceName = "hibernate_sequence",
-            allocationSize = 5)
+            allocationSize = 5,
+            initialValue = 6)
     @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "hibernateSequence")
     public Integer id;
 
