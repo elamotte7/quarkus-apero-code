@@ -7,11 +7,11 @@
 #
 # Then, build the image with:
 #
-# docker build -f src/main/docker/Dockerfile.jvm -t quarkus/rest-json-quickstart-jvm .
+# docker build -f src/main/docker/Dockerfile.jvm -t quarkus/apero-code-jvm .
 #
 # Then run the container using:
 #
-# docker run -i --rm -p 8080:8080 quarkus/rest-json-quickstart-jvm
+# docker run -i --rm -p 8080:8080 quarkus/apero-code-jvm
 #
 ###
 FROM registry.access.redhat.com/ubi8/ubi-minimal:8.1

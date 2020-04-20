@@ -12,8 +12,8 @@ public class Beer extends PanacheEntityBase {
     @SequenceGenerator(
             name = "hibernateSequence",
             sequenceName = "hibernate_sequence",
-            allocationSize = 5,
-            initialValue = 6)
+            allocationSize = 1,
+            initialValue = 1)
     @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "hibernateSequence")
     public Integer id;
 
