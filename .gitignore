@@ -3,6 +3,7 @@
 .classpath
 .settings/
 bin/
+token.txt
 
 # IntelliJ
 .idea
