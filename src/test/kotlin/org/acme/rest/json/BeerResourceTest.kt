@@ -15,7 +15,7 @@ class BeerResourceTest {
 
     @Test
     @Order(1)
-    fun testGetFruits() {
+    fun testGetBeers() {
         given()
                 .`when`().get("/beers")
                 .then()
@@ -25,7 +25,7 @@ class BeerResourceTest {
 
     @Test
     @Order(2)
-    fun testAddFruit() {
+    fun testAddBeer() {
         var payload = "{\"name\":\"goudale\",\"color\":\"Amber\",\"tasted\":false,\"order\":0}"
         given()
                 .contentType(ContentType.JSON)
